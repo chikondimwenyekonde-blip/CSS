@@ -1,6 +1,47 @@
-p{
-    color:crimson;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  color: #333;
 }
-div{
-    color:blueviolet;
+
+.header-title {
+  font-size: 2em;
+  font-weight: 600;
+  color: #1976d2;
+  margin-bottom: 20px;
+}
+
+.division {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.this-is-the-best-practice-bae {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.this-is-the-best-practice-bae a {
+  color: white;
+  text-decoration: none;
 }
